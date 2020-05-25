@@ -11,7 +11,7 @@ ${base_url}         http://localhost:8080
 
 *** Test Cases ***
 Example of how to load JSON
-    ${json}=    Get file    Score3.json
+    ${json}=    Get file    files/Score3.json
     Log to Console    ${json}
 
     # convert the data to a python object

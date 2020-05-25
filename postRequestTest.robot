@@ -1,10 +1,8 @@
 *** Settings ***
 Documentation       Test of POST request.
 Library             Collections
-#Library             CollectionsHelperLibrary.py
 Library             OperatingSystem
 Library             RequestsLibrary
-#Resource            collections_resources.robot
 
 *** Variables ***
 ${base_url}         http://localhost:8080
